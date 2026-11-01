@@ -9,6 +9,9 @@ DEVICE_PATH := device/oblue/TANK3
 # Inherit from mt6895-common
 include device/oblue/mt6895-common/BoardConfigCommon.mk
 
+# Inherit firmware
+include device/oblue/TANK3-firmware/config.mk
+
 # Display
 TARGET_SCREEN_DENSITY := 480
 

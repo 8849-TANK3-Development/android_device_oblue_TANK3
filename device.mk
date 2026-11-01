@@ -7,6 +7,9 @@
 # Inherit from mt6895-common
 $(call inherit-product, device/oblue/mt6895-common/mt6895.mk)
 
+# Inherit firmware
+$(call inherit-product, device/oblue/TANK3-firmware/firmware.mk)
+
 # Soong
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
